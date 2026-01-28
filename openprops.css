@@ -1,0 +1,33 @@
+:root {
+	--size-header-1: 100%;
+	--size-header-2: 100%;
+	--size-header-3: 100%;
+
+	--size-content-1: 100%;
+	--size-content-2: 100%;
+	--size-content-3: 100%;
+
+	--body-bg: light-dark(var(--gray-2), var(--gray-11));
+
+	--primary-bg: light-dark(var(--indigo-7), var(--indigo-4));
+	--primary-fg: light-dark(var(--gray-0), var(--gray-12));
+
+	--secondary-bg: light-dark(var(--gray-12), var(--gray-0));
+	--secondary-fg: light-dark(var(--gray-0), var(--gray-12));
+
+	--success-bg: light-dark(var(--green-5), var(--green-5));
+	--success-fg: light-dark(var(--gray-0), var(--gray-12));
+
+	--danger-bg: light-dark(var(--red-6), var(--red-5));
+	--danger-fg: light-dark(var(--gray-0), var(--gray-12));
+
+	--warning-bg: light-dark(var(--yellow-5), var(--yellow-4));
+	--warning-fg: light-dark(var(--gray-12), var(--gray-12));
+
+	--info-bg: light-dark(var(--blue-5), var(--blue-4));
+	--info-fg: light-dark(var(--gray-0), var(--gray-12));
+}
+
+html {
+	background-color: var(--body-bg);
+}
